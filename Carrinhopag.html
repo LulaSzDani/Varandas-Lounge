@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="Responsivo.css">
+    <link rel="stylesheet" href="Estilocarrinho.css">
+    <script src="carrinho.js" defer></script>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+          color: (129, 162, 255);
+            border: 1px solid rgb(0, 0, 0);
+        }
+        th {
+            background-color: rgb(129, 162, 255);
+        }
+        .btn-remove.btn-remove, .btn-finalizar, .btn-compartilhar-whatsapp {
+            margin: 5px;
+            padding: 10px;
+            background-color: rgb(129, 162, 255);
+           
+            border: none;
+            cursor: pointer;
+        }
+        .btn-remove:hover, .btn-finalizar:hover, .btn-compartilhar-whatsapp:hover {
+            background-color:rgb(129, 162, 255);
+        }
+        .container {
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+  <div class="head">
+    <div class="left">
+      <img src="VV.png" alt="">
+      <h3>Varanda´s Lanches</h3>
+    </div>
+    <div class="options-center">
+      <a href="">Home</a>
+      <a href="">Cardápio</a>
+      <a href="">Loja</a>
+      <a href="">Sobre nós</a>
+    </div>
+    <div class="right">
+      <a href="Carrinhopag.html"><img src="carrinho__1_-removebg-preview.png" alt=""></a>
+    </div>
+  </div>
+<button
+  type="button"
+  class="bg-white text-center w-48 rounded-2xl h-14 relative font-sans text-black text-xl font-semibold group"
+>
+
+  <div
+    class="bg-green-400 rounded-xl h-12 w-1/4 flex items-center justify-center absolute left-1 top-[4px] group-hover:w-[184px] z-10 duration-500"
+  >
+    <svg
+      width="25px"
+      height="25px"
+      viewBox="0 0 1024 1024"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        fill="#000000"
+        d="M224 480h640a32 32 0 1 1 0 64H224a32 32 0 0 1 0-64z"
+      ></path>
+      <path
+        fill="#000000"
+        d="m237.248 512 265.408 265.344a32 32 0 0 1-45.312 45.312l-288-288a32 32 0 0 1 0-45.312l288-288a32 32 0 1 1 45.312 45.312L237.248 512z"
+      ></path>
+    </svg>
+    
+  </div>
+  <a href="index.html " class="linkk"><h1 class="translate-x-2">Voltar ao menu</h1></a>
+</button>
+</div>
+    
+    <header>
+        <h1 class="cta">Carrinho de Compras</h1>
+    </header>
+    <div class="container">
+        <div id="carrinhoContainer"></div>
+    </div>
+    
+</body>
+</html>

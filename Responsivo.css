@@ -1,0 +1,121 @@
+/*NestHUBMAX*/
+@media screen and (max-width: 1281px) and (max-height: 801px) {
+    .logao {
+        width: 1280px;
+        height: 300px;  
+    }
+}
+/*nestHub*/
+@media screen and (max-width: 1025px) and (max-height: 601px) {
+    .logao {
+        width: 1024px;
+        height: 300px; 
+    }
+}
+/*A51*/
+@media screen and (max-width: 413px) and (max-height: 915px) {
+    .logao {
+        width: 412px;
+        height: 300px; 
+    }
+}
+/*ZenBOOK*/
+@media screen and (max-width: 854px) and (max-height: 1281px) {
+    .logao {
+        width: 853px;
+        height: 300px; 
+    }
+}
+/*Zfold*/
+@media screen and (max-width: 345px) and (max-height: 883px) {
+    .logao {
+        width: 344px;
+        height: 300px; 
+    }
+}
+/*PRO7*/
+@media screen and (max-width: 913px) and (max-height: 1367px) {
+    .logao {
+        width: 912px;
+        height: 300px; 
+    }
+}/*PADPRO*/
+@media screen and (max-width: 1025px) and (max-height: 1367px) {
+    .logao {
+
+        width: 1024px;
+        height: 300px; 
+
+    }
+}/*S20*/
+@media screen and (max-width: 413px) and (max-height: 916px) {
+    .logao {
+        width: 412px;
+        height: 300px; 
+    }
+}/*iphone 14*/
+@media screen and (max-width: 431px) and (max-height: 933px) {
+    .logao {
+        width: 430px;
+        height: 300px; 
+
+    }
+}
+
+@media screen and (max-width: 10px) and (max-height: 10px) {
+    .logo {
+        line-height: 450px;
+        text-align: center;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        border-radius: 100px;
+        padding: 0px;
+        position: relative;
+        top: -100px;
+        background-size: 100px 200px;
+        background-image: url(LOGOZINHO.jpeg);
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        background-size: 1024px 300px; /* Example change */
+        height: 1024px; /* Example change */
+        width: 100%; /* Example change */
+    }
+    
+}
+@media screen and (max-width: 10px) and (max-height: 10px) {
+    .logo {
+        background-size: 853px 300px; /* Example change */
+        height: 500px; /* Example change */
+        width: 100%; /* Example change */
+    }
+    
+}
+@media screen and (max-width: 10px) and (max-height: 10px) {
+    .logo {
+        line-height: 10px;
+        text-align: center;
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        border-radius: 100px;
+        padding: 0px;
+        position: relative;
+        top: -200px;
+        background-size: 100px 200px;
+        background-image: url(LOGOZINHO.jpeg);
+        margin: 0 auto;
+        width: 200px;
+        height: 200px;
+        background-size: 1024px 300px; /* Example change */
+        height: 1024px; /* Example change */
+        width: 100%; /* Example change */
+        background-size: 820px 300px; /* Example change */
+        height: 820px; /* Example change */
+        width: 100%; /* Example change */
+    }
+    
+}
